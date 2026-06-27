@@ -1,5 +1,7 @@
 # Chat Workbench
 
+![Chat Workbench icon](assets/app-icon.png)
+
 Chat Workbench is a local Windows desktop app for backing up, searching, reopening, exporting, and handing off ChatGPT conversations.
 
 It was built for the very specific pain of: "I know I talked about this somewhere, but the normal ChatGPT sidebar/search/export flow is not helping me find it."
