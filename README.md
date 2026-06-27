@@ -50,6 +50,7 @@ Requirements:
 - Windows
 - .NET 8 SDK
 - Microsoft Edge WebView2 Runtime
+- Inno Setup 6, only if building the installer
 
 Restore and build:
 
@@ -75,6 +76,26 @@ Published executable:
 ```text
 bin\Release\net8.0-windows\win-x64\publish\ChatWorkbench.exe
 ```
+
+Build a Windows installer:
+
+```powershell
+.\installer\build-installer.ps1
+```
+
+If Inno Setup is not installed:
+
+```powershell
+winget install --id JRSoftware.InnoSetup
+```
+
+Installer output:
+
+```text
+artifacts\installer\ChatWorkbenchSetup.exe
+```
+
+The installer installs for the current Windows user and does not require admin rights.
 
 ## Basic Workflow
 
